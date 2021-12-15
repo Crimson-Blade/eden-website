@@ -1,0 +1,59 @@
+header{ 
+    background-color: #FFDFD3;
+    height: 70px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Head{  
+    background-color: #e9ccc2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    color: #585F74;
+    margin: 100px 25% 0 25%;
+}
+
+.inHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.inHead h3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+header h1{
+    font-family: 'VT323', monospace;
+    font-size: 4em;
+    color:  #D291BC;
+    margin-top: 0.2em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/* @media screen and (max-width: 450px){
+
+    header{
+        height: 2em;
+    }
+    
+} */
+
