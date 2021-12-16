@@ -4,6 +4,9 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .Head{  
@@ -16,6 +19,7 @@ header{
     font-family: 'VT323', monospace;
     color: #585F74;
     margin: 100px auto 0 auto;
+    transition: ;
 }
 .inHead{
     display: flex;
@@ -44,13 +48,17 @@ body{
 }
 
 footer{
-    margin-top: 100%;
+    position: sticky;
+    margin-top: 520px;
+    max-width: 100%;
     background-color: #FFFFD1;
     font-family: 'VT323', monospace;
     color: #585F74;
     display: flex;
     flex-direction: column;
     text-align: center;
+    top: 520px;
+    left: 0;
 }
 
  @media(max-width: 450px){
